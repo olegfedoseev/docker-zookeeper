@@ -1,7 +1,7 @@
 FROM develar/java
 MAINTAINER Oleg Fedoseev <oleg.fedoseev@me.com>
 
-ENV ZOOKEEPER_VERSION  3.4.8
+ENV ZOOKEEPER_VERSION  3.4.13
 ENV ZOOKEEPER_HOME     /usr/local/zookeeper
 ENV ZOOKEEPER_DATA_DIR /data/zookeeper
 ENV PATH               $PATH:$ZOOKEEPER_HOME/bin:$ZOOKEEPER_HOME/sbin
